@@ -126,7 +126,7 @@ fun TipTimeLayout() {
 @Composable
 fun EditNumberField(
     @StringRes label: Int,
-    @DrawableRes leadingIcon: Int,
+//    @DrawableRes leadingIcon: Int,
     keyboardOptions: KeyboardOptions,
     value: String,
     onValueChange: (String) -> Unit,
@@ -137,7 +137,7 @@ fun EditNumberField(
         singleLine = true,
         keyboardOptions = keyboardOptions,
         value = value,
-        leadingIcon = { Icon(painter = painterResource(id = leadingIcon), null) },
+//        leadingIcon = { Icon(painter = painterResource(id = leadingIcon), null) },
         onValueChange = onValueChange,
         modifier = modifier
     )
